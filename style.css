@@ -388,7 +388,7 @@ select {
     border-radius: 8px;
 }
 
-/* Responsive adjustments */
+
 @media (max-width: 768px) {
     .grid-layout {
         grid-template-areas:
@@ -409,12 +409,12 @@ select {
     padding: 1.5rem;
     border-radius: 8px;
     box-shadow: 0 2px 5px rgba(0,0,0,0.1);
-    transition: transform 0.3s ease, box-shadow 0.3s ease; /* анимация */
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
 }
 
 .feature-item:hover {
-    transform: translateY(-5px) scale(1.03); /* кішкене көтеріледі */
-    box-shadow: 0 8px 20px rgba(0,0,0,0.2);  /* көлеңке үлкейеді */
+    transform: translateY(-5px) scale(1.03); 
+    box-shadow: 0 8px 20px rgba(0,0,0,0.2);  
 }
 .book-card {
     background: white;
@@ -432,7 +432,7 @@ select {
     box-shadow: 0 10px 25px rgba(0,0,0,0.25);
 }
 .book-card::after {
-    content: "View Details"; /* немесе сурет атауы */
+    content: "View Details"; 
     position: absolute;
     bottom: 0;
     left: 0;
