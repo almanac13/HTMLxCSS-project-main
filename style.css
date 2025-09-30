@@ -448,3 +448,55 @@ select {
 .book-card:hover::after {
     transform: translateY(0);
 }
+.sidebar {
+    background: #f4f6f8;
+    padding: 1rem;
+    border-radius: 8px;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+}
+
+.sidebar h3 {
+    margin-bottom: 1rem;
+    font-size: 1.2rem;
+    color: #2c3e50;
+}
+
+.sidebar ul {
+    list-style: none;
+    padding: 0;
+}
+
+.sidebar ul li {
+    margin: 0.5rem 0;
+}
+
+.sidebar ul li a {
+    text-decoration: none;
+    color: #3498db;
+    font-weight: 500;
+    transition: color 0.3s ease;
+}
+
+.sidebar ul li a:hover {
+    color: #e74c3c;
+}
+
+.styled-list {
+    margin: 1rem 0;
+    padding-left: 1rem;
+}
+
+.styled-list li {
+    margin: 0.5rem 0;
+    font-size: 1rem;
+    color: #2c3e50;
+}
+
+.grid-layout .footer {
+    background: #3498db;
+    color: white;
+    padding: 1rem;
+    border-radius: 8px;
+    text-align: center;
+    font-size: 0.95rem;
+}
